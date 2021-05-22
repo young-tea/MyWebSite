@@ -1,119 +1,108 @@
-/* Global styles */
-
-footer {
-   	width: 100%;
-   	height: 7%;
-	color: #666;
-	background-color: #222;
-	padding: 1% 0 0.5% 0;
-	border-top: 1px solid #000;
+* {
+    user-select: none;
 }
 
-footer a {
-	color: #999;
+body {
+    background-image: url('../img/bg.jpg');
 }
 
-footer a:hover {
-	color: #efefef;
+/* content */
+
+.absolute-center {
+    width: 100%;
+    height: fit-content;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
 }
 
-
-
-
-
-
-
-
-
-/* header*/
-
-.header {
-	padding-top: 1%;
-	padding-bottom: 1%;
+.center-container {
+    position: relative;
+    height: 500px;
 }
 
-.header h1 {
-	margin-top: 3%;
-	color: white;
+h1 {
+    position: absolute;
+    left: 35%;
+    
+
+    font-family: brush-script-std, sans-serif;
+    font-size: 10em;
+    color: white;
 }
 
-.navbar-inverse {
-    border-radius: 0;
+div {
+    display: block;
 }
 
-.logo {
-	vertical-align: middle;
+.buttons {
+    display: flex;
+    padding: 20px;
 }
 
-.language {
-	background-color: #222222;
-	color: #fff;
+.content {
+    background-color: rgba(20, 20, 20, 0.75);
+    border-radius: 25px;
+
+    height: 250px;
+    width: 550px;
+    position: absolute;
+    top: 40%;
+    left: 36.5%;
 }
 
-
-
-/* content*/
-
-.site h1 {
-	color: #fff;
-	width: 50%;
-	padding: 1% 1% 1% 5%;
-	border-radius: 25px;
-	border: solid 1px #666;
+.buttons{
+    font-size: 2em;
 }
 
-.site p {
-	color: #fff;
+.vk-button {
+    padding: 1%;
+    margin: 1%;
+    margin-left: 12.5%;
 }
 
-.btn:hover {
-	color: #ffd48f;
-	background-color: #fff;
+.github-button {
+    padding: 1%;
+    margin: 1%;
+    margin-left: 12.5%;
 }
 
-.site {
-	padding: 2% 2%  7% 2%;
-	background-attachment: fixed;
+.discord-button {
+    padding: 1%;
+    margin: 1%;
+    margin-left: 12.5%;
 }
 
-
-#kinomonster2 {
-	background-image: url(../img/kinomonster2.png);
+#email1 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    font-size: 0.75em;
 }
 
-#kinomonster1 {
-	background-image: url(../img/kinomonster1.png);
+#email2 {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    font-size: 0.75em;
 }
 
-#all-pc {
-	background-image: url(../img/4.png);
+#port {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+
+    color: #fff;
+    font-size: 0.9em;
 }
 
-#how-to-earn {
-	background-image: url(../img/3.png);
-}
-
-#destroy {
-	background-image: url(../img/1.png);
-}
-
-#destroy h1 {
-	width: 70%;
-}
-
-#will-we-save-it {
-	background-image: url(../img/2.png);
-}
-
-
-
-
-/* clearence */
-
-.margin-5 {
-	margin-top: 5%;
-}
-
-.margin-2 {
-	margin-top: 2%;
+#port:hover {
+    color: #666;
+    text-decoration: none;
 }
