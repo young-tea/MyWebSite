@@ -1,0 +1,28 @@
+/* Global styles */
+
+* {
+    user-select: none;
+}
+
+footer {
+   	width: 100%;
+   	height: 5%;
+	color: #666;
+	background-color: #222;
+	padding: 1% 0 3% 0;
+	border-top: 1px solid #000;
+
+    position: absolute;
+    bottom:0;
+}
+
+
+/* content */
+
+.drp{
+	color: #666;
+}
+
+.cards{
+    width: 18rem;
+}
