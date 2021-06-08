@@ -26,3 +26,7 @@ footer {
 .cards{
     width: 18rem;
 }
+
+.nav-item{
+	text-align: center;
+}
