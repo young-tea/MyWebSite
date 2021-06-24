@@ -27,6 +27,33 @@ footer {
     width: 18rem;
 }
 
+.card {
+	box-shadow: rgba(14, 30, 37, 0.22) 0px 2px 4px 0px,
+				rgba(14, 30, 37, 0.42) 0px 2px 16px 0px;
+	
+	border-radius: 15px;
+}
+
+.card-img-top {
+	box-shadow: rgba(14, 30, 37, 0.22) 0px 2px 4px 0px,
+				rgba(14, 30, 37, 0.42) 0px 2px 16px 0px;
+	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.alrt {
+	box-shadow: rgba(14, 30, 37, 0.22) 0px 2px 4px 0px,
+				rgba(14, 30, 37, 0.42) 0px 2px 16px 0px;
+
+	border-radius: 15px;
+}
+
 .nav-item{
 	text-align: center;
+}
+
+.navbar {
+	box-shadow: rgba(14, 30, 37, 0.22) 0px 2px 4px 0px,
+				rgba(14, 30, 37, 0.42) 0px 2px 16px 0px;
 }
