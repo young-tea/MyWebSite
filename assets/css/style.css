@@ -23,7 +23,7 @@ body {
 
 .center-container {
     position: relative;
-    height: 500px;
+    height: 600px;
 }
 
 h1 {
@@ -105,4 +105,32 @@ div {
 #port:hover {
     color: #777;
     text-decoration: none;
+}
+
+.wrapper {
+    margin-top: 35%;
+    margin-left: 20%;
+}
+
+.typing-demo {
+    color: #fff;
+    width: 22ch;
+    animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from{
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }
